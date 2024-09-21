@@ -82,7 +82,7 @@ const About = () => {
           <h2># About Me</h2>
           <h1>Developer, Designer & Architect</h1>
           <p>
-            Hi, I'm a <span>full-stack software engineer</span> with a passion
+            Hi, I'm a <span>software engineer</span> with a passion
             for innovation and problem-solving. I have a{' '}
             <span>Master's degree in Advanced Architectural Design</span> from
             UC Berkeley, and I am currently pursuing a second{' '}
