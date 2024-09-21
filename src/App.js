@@ -21,7 +21,6 @@ function App() {
       <Navbar toggleSidebar={toggleSidebar} />
       <Hero />
       <About />
-      <Projects id='projects' />
       <Contact />
       <Footer />
     </div>
