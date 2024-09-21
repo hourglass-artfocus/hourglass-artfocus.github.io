@@ -82,6 +82,23 @@ const About = () => {
           <h2># About Me</h2>
           <h1>Developer, Designer & Architect</h1>
           <p>
+            Hi, I'm a <span>full-stack software engineer</span> with a passion
+            for innovation and problem-solving. I have a{' '}
+            <span>Master's degree in Advanced Architectural Design</span> from
+            UC Berkeley, and I am currently pursuing a second{' '}
+            <span>Master's degree in Computer Science</span> at Northeastern
+            University. My background in architecture and computer science has
+            given me a unique perspective on software development and design.
+            I've gained valuable experience by developing a{' '}
+            <span>low-latency twitter backend service</span>, a{' '}
+            <span>full-stack e-commerce website</span>, and an{' '}
+            <span>Android mobile app</span> called Unworried Store. I am eager
+            to work with professional development teams to tackle innovative
+            projects and continuously improve my skills. I am confident in my
+            abilities and I am eager to contribute my expertise to new
+            challenges.
+          </p>
+          {/* <p>
             Hello, I am a <span>full-stack software developer</span> currently
             pursuing a second <span>master’s degree in Computer Science</span>{' '}
             at <span>Northeastern University</span>. I earned my{' '}
@@ -125,7 +142,7 @@ const About = () => {
               </a>
             </span>{' '}
             me.
-          </p>
+          </p> */}
         </Content>
       </Wrapper>
     </Container>

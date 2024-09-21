@@ -50,7 +50,7 @@ module.exports = [
 
   {
     id: 'ios-timer-app',
-    title: 'IOS Timer App',
+    title: 'iOS Timer App',
     technologies: 'Swift, SwiftUI',
     img: require('../assets/timer.png'),
     code: 'https://github.com/shiyan-chen/ios-timer-app',
