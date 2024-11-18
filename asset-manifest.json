@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0ea33068.css",
-    "main.js": "/static/js/main.e341d00d.js",
+    "main.js": "/static/js/main.f9d9750c.js",
     "static/media/hourglass-ipad.png": "/static/media/hourglass-ipad.6d7f26a27c81c9ec930c.png",
     "static/media/hourglass-focus.png": "/static/media/hourglass-focus.436a34a6b87a393bd15a.png",
     "static/media/hourglass-clock.png": "/static/media/hourglass-clock.7dbdb91d5c1e91a02895.png",
@@ -10,10 +10,10 @@
     "static/media/mail.svg": "/static/media/mail.c63cdaac9b4f12037f9883606e8e0b0c.svg",
     "index.html": "/index.html",
     "main.0ea33068.css.map": "/static/css/main.0ea33068.css.map",
-    "main.e341d00d.js.map": "/static/js/main.e341d00d.js.map"
+    "main.f9d9750c.js.map": "/static/js/main.f9d9750c.js.map"
   },
   "entrypoints": [
     "static/css/main.0ea33068.css",
-    "static/js/main.e341d00d.js"
+    "static/js/main.f9d9750c.js"
   ]
 }
