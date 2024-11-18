@@ -37,15 +37,15 @@ const Container = styled.div`
   position: relative;
   display: flex;
   max-width: 300px;
-  height: 300px;
+  height: 800px;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border-radius: 5px;
-  background-color: var(--card-bg);
+  /* border-radius: 5px; */
+  /* background-color: var(--card-bg); */
   /* box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1),
     -4px -4px 4px 0 rgba(255, 255, 255, 0.9); */
-  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -73,8 +73,8 @@ const Wrapper = styled.div`
 `
 
 const Img = styled.img`
-  width: 100%;
-  height: 75%;
+  width: 90%;
+  /* height: 70%; */
   object-fit: cover;
 `
 
@@ -82,9 +82,13 @@ const Content = styled.div`
   height: 25%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  padding: 25px 10px;
   align-items: center;
   flex-direction: column;
+
+  P {
+    text-align: justify;
+  }
 `
 
 const Title = styled.h3`
@@ -114,29 +118,17 @@ const Card = (props) => {
     // whileHover={{ scale: 1.05 }}
     // transition={{ type: 'spring', stiffness: 400, damping: 10 }}
     >
-      <Overlay bgColor={props.color}>
+      {/* <Overlay bgColor={props.color}>
         <div>
           <h3>Technologies</h3>
           <p>{props.technologies}</p>
         </div>
-      </Overlay>
+      </Overlay> */}
       <Wrapper>
         <Img src={props.img} alt='' />
         <Content>
           <Title>{props.title}</Title>
-          <Links>
-            {props.demo && (
-              <a href={props.demo} target='_blank' rel='noopener noreferrer'>
-                Demo
-              </a>
-            )}{' '}
-            {props.code && props.demo && '|'}{' '}
-            {props.code && (
-              <a href={props.code} target='_blank' rel='noopener noreferrer'>
-                Code
-              </a>
-            )}
-          </Links>
+          <p>{props.description}</p>
         </Content>
       </Wrapper>
     </Container>

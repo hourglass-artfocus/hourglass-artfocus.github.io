@@ -56,7 +56,7 @@ const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 50px;
 `
 
 const SocialIconLink = styled.a`
@@ -69,45 +69,45 @@ const Footer = () => {
       <Wrapper>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo href='#hero'>Shiyan</SocialLogo>
+            <SocialLogo href='#about'>Hourglass</SocialLogo>
             <WebsiteRights>
-              Shiyan Chen &copy; {new Date().getFullYear()} All rights reserved.
+              Shiyan Chen &copy; {new Date().getFullYear()}   All rights reserved.
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink
+              {/* <SocialIconLink
                 href='https://github.com/shiyan-chen'
                 target='_blank'
                 rel='noopener noreferrer'
                 aria-label='Github'
               >
                 <FaGithub />
-              </SocialIconLink>
-              <SocialIconLink
+              </SocialIconLink> */}
+              {/* <SocialIconLink
                 href='https://www.instagram.com/shiyan_1097/'
                 target='_blank'
                 rel='noopener noreferrer'
                 aria-label='Instagram'
               >
                 <FaInstagram />
-              </SocialIconLink>
-              <SocialIconLink
+              </SocialIconLink> */}
+              {/* <SocialIconLink
                 href='https://www.youtube.com/@shiyanchen7285'
                 target='_blank'
                 rel='noopener noreferrer'
                 aria-label='Youtube'
               >
                 <FaYoutube />
-              </SocialIconLink>
-              <SocialIconLink
+              </SocialIconLink> */}
+              {/* <SocialIconLink
                 href='https://www.linkedin.com/in/shiyan-chen22/'
                 target='_blank'
                 rel='noopener noreferrer'
                 aria-label='Linkedin'
               >
                 <FaLinkedin />
-              </SocialIconLink>
+              </SocialIconLink> */}
               <SocialIconLink
-                href='mailto:c.shiyan22@gmail.com'
+                href='mailto:hourglass.artfocus@gmail.com'
                 target='_blank'
                 rel='noopener noreferrer'
                 aria-label='Gmail'

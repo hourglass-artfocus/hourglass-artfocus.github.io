@@ -60,19 +60,17 @@ const Contact = () => {
       <Wrapper>
         <Content>
           <h2># Contact</h2>
-          <h1>Let's Connect</h1>
+          <h1>Provide Feedback</h1>
           <p>
-            I am currently looking for coop and internship opportunities from
-            May 2023 to May 2024. If you'd like to offer me an internship or job
-            opportunity or any other form of cooperation, please email me.
+            If you have any feedback or good suggestions, please feel free to email us: hourglass.artfocus@gmail.com.
           </p>
           <Button>
             <a
-              href='mailto:c.shiyan22@gmail.com'
+              href='mailto:hourglass.artfocus@gmail.com'
               target='_blank'
               rel='noopener noreferrer'
             >
-              Say Hello
+              Contact
             </a>
           </Button>
         </Content>

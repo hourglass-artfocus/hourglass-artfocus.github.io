@@ -8,7 +8,7 @@ import { Button } from './Button'
 const Container = styled.div`
   display: flex;
   min-height: 100vh;
-  padding: 100px 0;
+  /* padding: 100px 0; */
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -63,12 +63,12 @@ const Projects = () => {
 
   return (
     <Container id='projects'>
-      <h2># Projects</h2>
-      <h1>Frontend, Backend & Fullstack</h1>
+      <h2># Modes</h2>
+      <h1>Focus, Clock & Art</h1>
       <Cards>{showMore ? cards : firstSix}</Cards>
-      <Button onClick={toggle}>
+      {/* <Button onClick={toggle}>
         <span>{showMore ? 'Show Less' : 'Show More'}</span>
-      </Button>
+      </Button> */}
     </Container>
   )
 }

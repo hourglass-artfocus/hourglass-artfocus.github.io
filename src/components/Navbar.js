@@ -4,6 +4,8 @@ import { Link } from 'react-scroll'
 import { IconContext } from 'react-icons'
 import { FaBars } from 'react-icons/fa'
 import { Button } from './Button'
+import HourglassLogo from '../assets/logo-light-transparent-bg.png'
+
 
 const Container = styled.div`
   display: flex;
@@ -44,6 +46,14 @@ const Logo = styled.a`
   font-size: 2rem;
   font-family: Lobster;
   cursor: pointer;
+
+  img {
+    height: auto;
+    width: 50px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
 `
 
 const Items = styled.div`
@@ -135,16 +145,16 @@ const Navbar = ({ toggleSidebar }) => {
   return (
     <Container scrollNav={scrollNav} scrollDirection={useScrollDirection()}>
       <Wrapper>
-        <Logo href='#hero'>Shiyan</Logo>
+        <Logo href='#hero'>
+          <img src={HourglassLogo} alt='logo' />
+          Hourglass
+        </Logo>
         <MobileIcon onClick={toggleSidebar}>
           <IconContext.Provider value={{ color: 'black' }}>
             <FaBars />
           </IconContext.Provider>
         </MobileIcon>
         <Items>
-          <Item to='hero' smooth={true} duration={500} spy={true} exact='true'>
-            Home
-          </Item>
           <Item to='about' smooth={true} duration={500} spy={true} exact='true'>
             About
           </Item>
@@ -155,7 +165,7 @@ const Navbar = ({ toggleSidebar }) => {
             spy={true}
             exact='true'
           >
-            Projects
+            Modes
           </Item>
           <Item
             to='contact'
@@ -167,11 +177,6 @@ const Navbar = ({ toggleSidebar }) => {
             Contact
           </Item>
         </Items>
-        <Button>
-          <a href='/resume.pdf' target='_blank' rel='noopener noreferrer'>
-            My Resume
-          </a>
-        </Button>
       </Wrapper>
     </Container>
   )

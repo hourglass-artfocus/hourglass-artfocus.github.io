@@ -3,7 +3,6 @@ import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Sidebar from './components/Sidebar'
@@ -19,8 +18,8 @@ function App() {
     <div>
       <Sidebar showSidebar={showSidebar} toggleSidebar={toggleSidebar} />
       <Navbar toggleSidebar={toggleSidebar} />
-      <Hero />
       <About />
+      <Projects />
       <Contact />
       <Footer />
     </div>

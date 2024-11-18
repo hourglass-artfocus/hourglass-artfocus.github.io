@@ -95,29 +95,16 @@ const Sidebar = ({ showSidebar, toggleSidebar }) => {
       </Icon>
       <Wrapper>
         <Menu>
-          <SidebarLink href='#hero' onClick={toggleSidebar}>
-            Home
-          </SidebarLink>
           <SidebarLink href='#about' onClick={toggleSidebar}>
             About
           </SidebarLink>
           <SidebarLink href='#projects' onClick={toggleSidebar}>
-            Projects
+            Modes
           </SidebarLink>
           <SidebarLink href='#contact' onClick={toggleSidebar}>
             Contact
           </SidebarLink>
         </Menu>
-        <SideBtn>
-          <SidebarRoute
-            href='/resume.pdf'
-            target='_blank'
-            rel='noopener noreferrer'
-            onClick={toggleSidebar}
-          >
-            My Resume
-          </SidebarRoute>
-        </SideBtn>
       </Wrapper>
     </Container>
   )
