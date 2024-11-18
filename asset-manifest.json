@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hourglass-artfocus.github.io/static/css/main.0ea33068.css",
-    "main.js": "/hourglass-artfocus.github.io/static/js/main.da62d9d3.js",
-    "static/media/hourglass-ipad.png": "/hourglass-artfocus.github.io/static/media/hourglass-ipad.6d7f26a27c81c9ec930c.png",
-    "static/media/hourglass-focus.png": "/hourglass-artfocus.github.io/static/media/hourglass-focus.436a34a6b87a393bd15a.png",
-    "static/media/hourglass-clock.png": "/hourglass-artfocus.github.io/static/media/hourglass-clock.7dbdb91d5c1e91a02895.png",
-    "static/media/hourglass-art.png": "/hourglass-artfocus.github.io/static/media/hourglass-art.8fcd9b0e70483b028c7f.png",
-    "static/media/logo-light-transparent-bg.png": "/hourglass-artfocus.github.io/static/media/logo-light-transparent-bg.408b99bd78d116b4bd40.png",
-    "static/media/mail.svg": "/hourglass-artfocus.github.io/static/media/mail.c63cdaac9b4f12037f9883606e8e0b0c.svg",
-    "index.html": "/hourglass-artfocus.github.io/index.html",
-    "main.0ea33068.css.map": "/hourglass-artfocus.github.io/static/css/main.0ea33068.css.map",
-    "main.da62d9d3.js.map": "/hourglass-artfocus.github.io/static/js/main.da62d9d3.js.map"
+    "main.css": "/static/css/main.0ea33068.css",
+    "main.js": "/static/js/main.e341d00d.js",
+    "static/media/hourglass-ipad.png": "/static/media/hourglass-ipad.6d7f26a27c81c9ec930c.png",
+    "static/media/hourglass-focus.png": "/static/media/hourglass-focus.436a34a6b87a393bd15a.png",
+    "static/media/hourglass-clock.png": "/static/media/hourglass-clock.7dbdb91d5c1e91a02895.png",
+    "static/media/hourglass-art.png": "/static/media/hourglass-art.8fcd9b0e70483b028c7f.png",
+    "static/media/logo-light-transparent-bg.png": "/static/media/logo-light-transparent-bg.408b99bd78d116b4bd40.png",
+    "static/media/mail.svg": "/static/media/mail.c63cdaac9b4f12037f9883606e8e0b0c.svg",
+    "index.html": "/index.html",
+    "main.0ea33068.css.map": "/static/css/main.0ea33068.css.map",
+    "main.e341d00d.js.map": "/static/js/main.e341d00d.js.map"
   },
   "entrypoints": [
     "static/css/main.0ea33068.css",
-    "static/js/main.da62d9d3.js"
+    "static/js/main.e341d00d.js"
   ]
 }
